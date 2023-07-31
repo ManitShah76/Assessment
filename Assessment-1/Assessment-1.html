@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment-1</title>
+    <link rel="shortcut icon" href="../Assessment-1/Images/register.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registaration Form</h1>
+    <form action="">
+        <div class="box">
+            <div class="labels">
+                <label for="First Name:">First Name:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input1" placeholder="Enter your first name" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Last Name:">Last Name:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input2" placeholder="Enter your last name" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Email:">Email:</label>
+            </div>
+            <div class="inputs">
+                <input type="email" id="input3" placeholder="it should conrain @.." required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Mobile:">Mobile:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input4" placeholder="only 10 digits are allowed" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="gender:">Gender:</label>
+            </div>
+            <div class="inputs">
+                <input type="radio" id="input5" name="Gender" required>Male 
+                <input type="radio" id="input5-1" name="Gender" required>Famale 
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Date of birth:">Date of birth:</label>
+            </div>
+            <div class="inputs">
+                <input type="date" id="input6" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Address:">Address:</label>
+            </div>
+            <div class="inputs">
+                <textarea name="Address" id="input7" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="City:">City:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input8" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Area Pin:">Area Pin:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input9" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Area Pin:">States:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input10" required>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Qualification:">Qualification:</label>
+            </div>
+            <div class="inputs">
+                <select name="Qualification:" id="input11" required>
+                    <option value="">Select Qualification:</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="under Graguate">under Graguate</option>
+                    <option value="Graguate">Graguate</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Specialization:">Specialization:</label>
+            </div>
+            <div class="inputs">
+                <input type="checkbox" name="Specialization:" id="input12" required>Computer Science <br> 
+                <input type="checkbox" name="Specialization:" id="input12" required>Information Technology <br>
+                <input type="checkbox" name="Specialization:" id="input12" required>Computer Architecture <br>
+                <input type="checkbox" name="Specialization:" id="input12" required>Tele Communication <br>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <label for="Password:">Password:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="input13" required>
+            </div>
+        </div>
+        <input type="submit" value="Registered">
+    </form>
+</body>
+</html>
